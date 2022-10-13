@@ -1,0 +1,25 @@
+{
+  "name": "lint-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "eslint-next.js",
+    "eslint-server.js",
+    "jest-common.js",
+    "jest-next.js",
+    "jest-server.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint-config-next": "12.2.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-mdx": "^2.0.5",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-jest-dom": "^4.0.1",
+    "eslint-plugin-testing-library": "^5.0.1",
+    "next": "12.2.5"
+  }
+}
